@@ -87,12 +87,20 @@ li{
 li::marker{
     color: var(--cor5);
 }
-table td, tr{
+table{
+    width: 500px;
+    border-collapse:collapse ;
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid var(--cor3);
     font-size: 1.4em;
 }
-table > tr{
-    border: 2px ;
+.cal{
+    color: var(--cor5);
+    font-weight:bold ;
 }
+
 footer{
 
     text-align: center;
